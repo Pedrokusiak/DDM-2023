@@ -1,0 +1,51 @@
+PARAMETROS NOMEADOS:
+
+ - Define-se parâmetros nomeados por meio de {}
+ - Por padrão os parâmetros nomeados são OPCIONAIS - assim é necessário definir o valor padrão
+ - Para tornar parâmetros nomeados obrigatórios utilizamos a palavra chave "required"
+ - O objetivo dos parâmetros nomeados é tornar a leitura mais claro 
+ - Com parâmetros nomeados, na chamada da função, podemos definir a ordem aleatória dos parâmetros
+
+Exemplo:
+        String verificarAprovacaoComParametrosNomeados({required double nota1, required double nota2, double media = 6}){
+            double nota =  (nota1 + nota2) / 2;
+            if(nota > media){
+                return 'aprovado';
+            }else{
+                return 'reprovado';
+            }
+        }
+
+PARAMETROS POSICIONAIS:
+
+- O parâmetros posicionais são os que comumente utilizamos.
+
+Exemplo:
+        String verificarAprovacaoComParametrosNomeados(double nota1, double nota2, double media){
+            double nota =  (nota1 + nota2) / 2;
+            if(nota > media){
+                return 'aprovado';
+            }else{
+                return 'reprovado';
+            }
+        }
+
+PARAMETROS OPCIONAIS:
+
+- São parametros que já possuem valor padrão e como o nome diz, sua entrada através do construtor será opcional
+
+EXEMPLO:
+        String verificarAprovacaoComValorPadrao(double nota1, double nota2, int percetualPresenca, [double mediaAprovacao=6, int percetualMinimaPresenca=75]){
+        /*
+        Nesta função, temos 2 parâmetros posicionais opcionais: mediaAprovacao e percetualMinimaPresenca
+        na chamada da desta função:
+        - podemos passar o valor que desejamos da média 
+        - porém, se a media não for informada, o valor, por padrão será 6
+        */
+        double media =  (nota1 + nota2) / 2;
+        if(media >= mediaAprovacao && percetualPresenca >= percetualMinimaPresenca){
+            return 'aprovado';
+        }else{
+            return 'reprovado';
+        }
+        }

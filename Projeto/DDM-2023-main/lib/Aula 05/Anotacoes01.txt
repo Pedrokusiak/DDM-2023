@@ -1,0 +1,12 @@
+Atividade 01 Das 19h20 às 20:20
+
+- Foram respondido as 5 questões com auxílio do professor
+
+O objetivo era revisar o conteudo sem utilizar a IDE e utilizar apenas o conhecimento obtidos nas aulas passadas para realizar as questoes
+
+
+20h20 às 21h00
+(1) Aula prática - Criar um projeto Dart e inserir o código que consta no repositório (https://github.com/heliokamakawa/-engenharia-de-software-2023-DDM/tree/main/aula%2003%20-%20classes);
+
+ - Foi feito o aprendizado sobre classes e as diversas maneiras de se instaciar uma classe em flutter.
+ 

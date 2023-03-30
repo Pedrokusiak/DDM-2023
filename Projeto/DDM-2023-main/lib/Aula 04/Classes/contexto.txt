@@ -1,0 +1,37 @@
+Atividade 01 
+- 1.1 criar professor com 2 atributos
+- 1.2 alterar atributos do professor para não nulos
+- 1.3 alterar para contrutores nomeados	
+- 1.4 criar um objeto aluno no print
+- 1.5 alterar professor para ter atributos 
+  nulos e não nulos
+- 1.6 alterar professor para ter um parameter function
+- 1.7 criar um objeto professor com função nomeada
+- 1.8 criar um objeto professor com função anônima
+- 1.9 criar um objeto professor com arrow function 
+- 2.0 criar um objeto professor com arrow function 
+  no print
+
+
+>>>>Atividade de Consolidação
+Em relação ao Pedido:
+- criar 1 objeto utilizando referência nomeada;
+- criar 3 objetos com referência anônima com dados 
+  diferentes e imprimir >>>UTILIZAR PARAMETROS NOMEADOS<<<;
+
+Pedido{
+  total, status,
+  Cliente{nome, Cidade{nome, Estado{nome,sigla}}, CPF}, 
+  Fornecedor{nome, Cidade{nome, Estado{nome,sigla}}, CNPJ} 
+  ItemPedido{
+    quantidade,
+    Produto{nome,precoCusto,precoVenda, Categoria{nome, descricao}}
+    precoTotal
+  }
+}
+Observação:
+- Cada classe deve ter um parameter function 
+- Criar 2 atributos personalizados para cada classe
+
+Criar um exemplo personalizado com a mesma complexidade
+*/
