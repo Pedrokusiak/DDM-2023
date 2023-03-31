@@ -1,0 +1,2 @@
+Nas 2 primeiras aulas foi ensinado, como funciona a navegação entre os widgets em flutter.
+Nas 2 ultimas aulas foi, dado tempo para validação do diario, e validação do projeto. E resolução de exercicios propostos.
